@@ -1,12 +1,14 @@
 .hero{
     margin: 0px 120px;
     margin-top: 270px;
+    
 }
 .hero-text {
     color: #ffffff;
     font-size: 110px;
     font-weight: 500;
     line-height: 130px;
+    padding-bottom: 60px;
 }
 .hero-explore{
     display: flex;
@@ -23,8 +25,8 @@
     cursor: pointer;
 }
 .hero-explore:hover {
-    background-color: rgb(235, 235, 235);
-    text-shadow: 0 0 2px #717171;
+    background-color: #c7f1ff;
+    text-shadow: 0 0 0.5px #000000;
     transition: 0.2s;
 }
 .hero-explore p{
@@ -33,6 +35,7 @@
     font-weight: 500;
 }
 .hero-explore img{
+    
     max-width: 60px;
     max-height: 70px;
 }
@@ -43,7 +46,8 @@
     justify-content: space-between;
 }
 .hero-dots{
-    margin-top: 70px;
+    margin-top: 50px;
+    margin-left: 10px;
     display: flex;
     align-items: center;
     gap: 23px;
@@ -53,7 +57,10 @@
     width: 15px;
     height: 15px;
     background: #fff;
-    border-radius: 7.5px;
+    border-color: aliceblue;
+    border-radius: 55.5px;
+    border-style: solid;
+    border-width: 4px;
     cursor: pointer;
 }
 .hero-dot.alice{

@@ -1,0 +1,46 @@
+.contact{
+    max-width: 600px;
+    margin: 6em auto;
+    background-color: rgb(255, 255, 255);
+    padding-top: 120px;
+    padding-right: 5%;
+    padding-left: 5%;
+    border: 8px;
+    border-style: solid;
+    padding-bottom: 120px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+input{
+    width: 100%;
+    padding: .6em;margin-bottom: 1em;
+    border: .1em solid;
+    outline: none;
+    font-size: 1rem;
+}
+label{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.btn{
+    padding-top: 40px;
+}
+.NavItem{
+    border: 0.2em;
+    padding-top: 160px;
+    border-style: solid;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    text-decoration: none;
+    padding: 12px;
+    font-size: larger;
+}
+.btnBox{
+    color: rgb(255, 192, 192);
+}
+.meddelande{
+    border: 0.4em;
+}

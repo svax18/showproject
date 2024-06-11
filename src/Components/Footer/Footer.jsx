@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='footer-line'>Vårt namn</div>
         <div className="footer-menu">
             <div className='foot-icon'>
-                <h3>Social media:</h3>
+                <h3>Sociala medier:</h3>
                 <FaYoutube className='youtube'/>
                 <FaTwitter className='twitter'/>
                 <FaFacebook className='facebook'/>
