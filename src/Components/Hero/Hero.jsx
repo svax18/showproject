@@ -3,17 +3,25 @@ import arrow_btn from '../../assets/arrow_btn.png'
 import play_icon from '../../assets/play_icon.png'
 import pause_icon from '../../assets/pause_icon.png'
 import image1 from '../../assets/image1.jpg'
+import { NavLink } from 'react-router-dom'
+
 
 const Hero = ({heroData,setHeroCount,heroCount,setPlayStatus,playStatus}) => {
   return (
     <div className='hero'>
+        
         <div className="hero-text">
             <p>{heroData.text1}</p>
             <p>{heroData.text2}</p>
-        </div><div className="hero-explore">
-            <p>Utforska hos oss</p>
-            <img src={arrow_btn} alt=""/>
+            
         </div>
+        <NavLink to="/home" className="hero-explore">
+        
+            <p>Utforska hos oss här</p>
+            <img src={arrow_btn} alt=""/>
+        
+        </NavLink>
+        
         
         
         <div className="hero-dot-play">
@@ -27,7 +35,7 @@ const Hero = ({heroData,setHeroCount,heroCount,setPlayStatus,playStatus}) => {
             
             <div className="hero-play">
                 <img onClick={()=>setPlayStatus(!playStatus)} src={playStatus?pause_icon:play_icon} alt=""/>
-                <p>Byt Backgrunds Media?</p>
+                <p>Byt Backgrunds Media Video eller Bilder?</p>
             </div>
         </div>
       

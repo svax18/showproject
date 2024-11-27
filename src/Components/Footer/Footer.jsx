@@ -3,8 +3,8 @@ import { FaYoutube, FaTwitter, FaFacebook } from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <div className='foot'>
-        <div className='footer-line'>Vårt namn</div>
+    <div className='my-footing'>
+        <div className='footer-line'>En Exempel Webbsida</div>
         <div className="footer-menu">
             <div className='foot-icon'>
                 <h3>Sociala medier:</h3>

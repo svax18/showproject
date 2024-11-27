@@ -1,7 +1,4 @@
-
-
-.cards{  
-    
+.cards{    
     position: static;
     top: 50%;
     left: 50%;
@@ -12,11 +9,9 @@
     background: #f5f5f5;
     box-shadow: 0 30px 50px #dbdbdd;
     border-radius: 10px;
-    font-size: medium;
-    
+    font-size: medium;   
 }
     
-
 .cards .slider .items{
     width: 220px;
     height: 500px;
@@ -31,6 +26,7 @@
 }
 
 .slider .items:nth-child(1),
+
 .slider .items:nth-child(2){
     top: 0;
     left: 0;
@@ -39,16 +35,23 @@
     height: 100%;
     
 }
-
+@media screen and (min-width: 1020px){
 .slider .items:nth-child(3){
     left: 30%;
 }
+
 .slider .items:nth-child(4){
     left: calc(30% + 240px);
-}
+}}
+@media screen and (min-width: 1141px){
 .slider .items:nth-child(5){
     left: calc(30% + 480px);
-}
+}}
+@media screen and (max-width: 1140px){
+    .slider .items:nth-child(5){
+        left: calc(30% + 0px);
+        opacity: 0;
+    }}
 @media screen and (min-width: 1541px){
 .slider .items:nth-child(6){
     left: calc(30% + 720px);
@@ -57,7 +60,7 @@
 
 @media screen and (max-width: 1540px){
 .slider .items:nth-child(6){
-    left: calc(30% + 720px);
+    left: calc(30% + 0px);
     opacity: 0;
 }}
 
@@ -90,6 +93,7 @@
     background-image: url('../../assets/image4.jpg');
     background-size: cover;
     height: 100%;
+    
     background-position: 50% 50%;
     border-radius: 10px;
     background-repeat: no-repeat;

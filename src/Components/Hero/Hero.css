@@ -23,6 +23,9 @@
     border-radius: 60px;
     background-color: #ffffff;
     cursor: pointer;
+    text-decoration: none;
+    border-color: #000000;
+    
 }
 .hero-explore:hover {
     background-color: #c7f1ff;
