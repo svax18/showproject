@@ -5,8 +5,8 @@
     
     color: rgb(255, 255, 255);
     background-color: gray;
-    margin-top: 80px;
-    border-width: 3px;
+    margin-top: 250px;
+    border-width: 5px;
     border-style: solid;
     border-color: black;
     
@@ -14,30 +14,30 @@
 
 .footer-line{
     font-family: Outfit;
-    font-size: 42px;
+    font-size: 32px;
     font-weight: 500;
     padding: 20px 120px;
     
 }
+
+
 .footer-menu{
     padding: 40px 120px;
     display: flex;
     align-items: top;
     list-style: none;
-    font-size: 18px;
-    gap: 120px;
+    
+    margin-top: -40px;
     
 }
 .foot-icon{
     display: inline;
-    border-bottom: solid;
-    border-width: 4px;
-    padding-bottom: 10px;
+    
+    
 }
 .foot-contact{
     display: inline;
-    border-bottom: solid;
-    border-width: 4px;
+    
 }
 .youtube{
     font-size: 30px;
@@ -68,4 +68,66 @@
 p.foot-contact{
     font-family: Outfit;
     font-size: 18px;
+    padding-top: 5px;
 }
+.foot-contact{
+    width: 200px;
+}
+.foot-icon{
+    width: 200px;
+}
+.footer-endline{
+    display: flex;
+    align-items: top;
+    margin-left: 120px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    margin-top: -15px;
+    border-top: solid;
+    border-width: 4px;
+}
+h3{
+    padding-top: 10px;
+}
+p{padding-top: 8px;}
+@media screen and (max-width: 950px){
+    .footer-menu{
+            padding: 40px 30px;  
+                    
+        }
+    } 
+    @media screen and (max-width: 650px){
+        .footer-menu{
+            padding: 40px 10px 30px 10px;  
+            font-size: 13px;  
+            }
+        } 
+
+@media screen and (max-width: 950px){
+    .footer-line{
+            padding: 10px 30px;          
+        }
+    } 
+    @media screen and (max-width: 650px){
+        .footer-line{
+            padding: 0px 0px 0px 10px;  
+            font-size: 26px;  
+            }
+        } 
+
+@media screen and (max-width: 950px){
+    .footer-endline{
+        margin-left: 30px;
+        margin-right: 10px;        
+        }
+    } 
+@media screen and (max-width: 650px){
+    .footer-endline{
+        margin-left: 10px;
+        margin-right: 0px;     
+        font-size: 13px;    
+        }
+    } 
+
+
+

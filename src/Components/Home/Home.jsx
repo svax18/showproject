@@ -25,9 +25,9 @@ const Home = () => {
                     <div className="item1" >
                         
                         <div className="content">
-                            <div className="name">Snow at Night</div>
+                            <div className="name">Snö och Natt</div>
                             <div className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quaerat a earum, necessitatibus sit iure quibusdam, rem nemo, voluptate sint reprehenderit quia? Autem esse repellat quasi temporibus cumque mollitia? Similique?</div>
-                            <button>see more</button>
+                            <button>se mer</button>
                         </div>
                     </div>
                 </div>
@@ -36,9 +36,9 @@ const Home = () => {
                     <div className="item2" >
                         
                         <div className="content">
-                            <div className="name">Mountains at Night</div>
+                            <div className="name">Berg och Natt</div>
                             <div className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quaerat a earum, necessitatibus sit iure quibusdam, rem nemo, voluptate sint reprehenderit quia? Autem esse repellat quasi temporibus cumque mollitia? Similique?</div>
-                            <button>see more</button>
+                            <button>se mer</button>
                         </div>
                     </div>
                 </div>
@@ -46,9 +46,9 @@ const Home = () => {
                     <div className="items">
                         <div className="item3" >
                             <div className="content">
-                                <div className="name">The Northern Lights</div>
+                                <div className="name">Norrljusen</div>
                                 <div className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quaerat a earum, necessitatibus sit iure quibusdam, rem nemo, voluptate sint reprehenderit quia? Autem esse repellat quasi temporibus cumque mollitia? Similique?</div>
-                                <button>see more</button>
+                                <button>se mer</button>
                             </div>
                         </div>
                     </div>
@@ -57,9 +57,9 @@ const Home = () => {
                         <div class="item4" >
                         
                         <div className="content">
-                            <div className="name">Misty Night</div>
+                            <div className="name">Dimmig Natt</div>
                             <div className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quaerat a earum, necessitatibus sit iure quibusdam, rem nemo, voluptate sint reprehenderit quia? Autem esse repellat quasi temporibus cumque mollitia? Similique?</div>
-                            <button>see more</button>
+                            <button>se mer</button>
                         </div>
                         </div>
                     </div>
@@ -68,9 +68,9 @@ const Home = () => {
                         <div class="item5" >
                         
                         <div className="content">
-                            <div className="name">Night has Ended</div>
+                            <div className="name">Dagen Börjar</div>
                             <div className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quaerat a earum, necessitatibus sit iure quibusdam, rem nemo, voluptate sint reprehenderit quia? Autem esse repellat quasi temporibus cumque mollitia? Similique?</div>
-                            <button>see more</button>
+                            <button>se mer</button>
                         </div>
                         </div>
                     </div>
@@ -79,9 +79,9 @@ const Home = () => {
                         <div class="item6" >
                         
                         <div className="content">
-                            <div className="name">The Northern Lights</div>
+                            <div className="name">Norrljusen</div>
                             <div className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quaerat a earum, necessitatibus sit iure quibusdam, rem nemo, voluptate sint reprehenderit quia? Autem esse repellat quasi temporibus cumque mollitia? Similique?</div>
-                            <button>see more</button>
+                            <button>se mer</button>
                         </div>
                         </div>
                     </div>

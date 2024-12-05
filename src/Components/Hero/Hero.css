@@ -1,15 +1,29 @@
 .hero{
     margin: 0px 120px;
-    margin-top: 270px;
+    margin-top: 140px;
     
 }
+@media screen and (max-width: 550px){
+.hero{
+        margin: 0px 55px;  
+                    
+    }
+} 
 .hero-text {
     color: #ffffff;
-    font-size: 110px;
+    font-size: 90px;
     font-weight: 500;
     line-height: 130px;
     padding-bottom: 60px;
 }
+@media screen and (max-width: 550px){
+.hero-text{
+    padding-top: 140px;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60px;          
+    }
+} 
 .hero-explore{
     display: flex;
     align-items: center;
@@ -43,20 +57,23 @@
     max-height: 70px;
 }
 .hero-dot-play{
+    
     margin-top: 80px;
     margin-bottom: 80px;
-    display: flex;
+    display: inline;
     justify-content: space-between;
 }
 .hero-dots{
+    margin-bottom: 80px;
     margin-top: 50px;
     margin-left: 10px;
     display: flex;
     align-items: center;
-    gap: 23px;
+    gap: 15px;
     list-style: none;
 }
 .hero-dot{
+    
     width: 15px;
     height: 15px;
     background: #fff;
@@ -71,6 +88,7 @@
 }
 
 .hero-play{
+    margin-left: 5px;
     display: flex;
     align-items: center;
     gap: 30px;

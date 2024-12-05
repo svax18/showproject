@@ -21,7 +21,7 @@ function Main() {
                 <input type="text" placeholder="Skriv in Namn" />
                 </div>
                 <div>
-                <label htmlFor="name">Email </label>
+                <label htmlFor="name">Email  </label>
                 <input type="text" placeholder="Skriv in Email" />
                 </div>
                 <div>

@@ -11,7 +11,7 @@ import { Route,Routes } from "react-router-dom";
 const App = () => {
   let heroData = [
     {text1:"Hej Gäster",text2:"testa runt"},
-    {text1:"Roligt att se er",text2:"och välkomna!"},
+    {text1:"Roligt att se er,",text2:"välkomna!"},
     {text1:"Gå runt",text2:"se allt"},
     {text1:"Vi har video",text2:"också"},
     {text1:"Hej då",text2:"och god natt"},

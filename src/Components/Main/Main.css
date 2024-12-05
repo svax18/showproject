@@ -1,8 +1,8 @@
 .contact{
-    max-width: 600px;
+    max-width: 70%;
     margin: 6em auto;
     background-color: rgb(255, 255, 255);
-    padding-top: 120px;
+    padding-top: 80px;
     padding-right: 5%;
     padding-left: 5%;
     border: 8px;
@@ -15,7 +15,7 @@
 }
 
 input{
-    width: 100%;
+    width: 97%;
     padding: .6em;margin-bottom: 1em;
     border: .1em solid;
     outline: none;

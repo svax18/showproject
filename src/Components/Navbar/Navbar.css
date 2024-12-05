@@ -3,21 +3,37 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 80px 120px;
+    padding: 75px 120px;
+    padding-bottom: 0px;
     color: rgb(255, 255, 255);
-
+    border-width: 5px;
+    border-color: rgb(255,255,255,0.0);
+    border-style: solid;
+    padding-bottom: 50px;
+}
+.nav:hover{
+    background-color: gray;
+    transition: 1s ;
     
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-color: black;
+    border-style: solid;
+
 }
 .nav-logo{
     font-family: Outfit;
-    font-size: 42px;
+    font-size: 52px;
     font-weight: 500;
+    
 }
 .nav-menu{
     display: flex;
     align-items: center;
     list-style: none;
-    font-size: 18px;
+    font-size: 22px;
     gap: 120px;
 }
 
@@ -36,3 +52,38 @@
     background: #fff;
     color: #262626;
 }
+@media screen and (max-width: 1140px){
+    .nav{
+        padding: 20px 120px;
+        }
+    }
+@media screen and (max-width: 1140px){
+    .nav-menu{
+            gap: 35px;
+        }
+    }
+@media screen and (max-width: 790px){
+    .nav-logo{
+             
+            font-size: 23px;           
+        }
+    }    
+@media screen and (max-width: 550px){
+    .nav-logo{
+                 
+            display: none;           
+        }
+    }  
+@media screen and (max-width: 950px){
+    .nav{
+            padding: 10px 30px;          
+        }
+    }  
+@media screen and (max-width: 400px){
+    .nav-menu{
+            font-size: 18px;
+            gap: 15px;        
+        }
+    }      
+    
+    
